@@ -1,7 +1,7 @@
 //your JS code here. If required.
   const tbody=document.getElementById("output");
   function createRandomPromise(){
-       let time=Math.floor(Math.random()*2)+1;
+       let time=Math.ceil(Math.random()*2)+1;        
 	   return new Promise((resolve,reject)=>{
           setTimeout(()=>{
               resolve(time);
